@@ -26,7 +26,7 @@ export default defineComponent({
             this.user.password = ""
           }else {
             localStorage.setItem("token", res.token)
-            this.$router.push("")
+            this.$router.push("/daily")
           }
         }).catch(err => {
           console.log(err)

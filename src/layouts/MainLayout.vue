@@ -2,8 +2,8 @@
   <q-layout view="lHh Lpr lFf">
     <q-header>
       <q-toolbar style="background-color: #f1f1f1">
-        <img alt="Mayi logo" src="~assets/layout/logo2.png" style="padding-left: 16px; width: 130px;"/>
-      
+        <img alt="Mayi logo" src="~assets/layout/logo2.png" 
+            style="padding-left: 16px; width: 130px;"/>
         <div style="position: absolute; right: 0%;">
           <q-btn
               flat

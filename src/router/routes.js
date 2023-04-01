@@ -21,6 +21,13 @@ const routes = [
       { path: '', component: () => import('pages/Register.vue') }
     ]
   },
+  {
+    path: '/daily',
+    component: () => import('layouts/UserLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/Daily.vue')}
+    ]
+  },
   // Always leave this as last one,
   // but you can also remove it
   {
