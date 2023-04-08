@@ -4,6 +4,7 @@ export default defineComponent({
   name: 'UserLayout',
   data() {
     return {
+      drawer: false,
       imageList: [
         {
           id: 1,
@@ -24,6 +25,16 @@ export default defineComponent({
     };
   },
   methods: {
-    
+    onPersonalClick() {
+      this.$router.push({
+        path: "/app/personal",
+      });
+    },
+    onQuitClick() {
+      localStorage.clear()
+      this.$router.push({
+        path: "/",
+      });
+    }
   }
 })

@@ -22,10 +22,21 @@ const routes = [
     ]
   },
   {
-    path: '/daily',
+    path: '/app',
     component: () => import('layouts/UserLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/Daily.vue')}
+      {
+        path: 'daily', component: () => import('src/pages/Daily/DailyDrawer.vue'),
+        children: [
+          { path: '', component: () => import('src/pages/Daily/DailyList.vue') }
+        ]
+      },
+      {
+        path: 'personal', component: () => import('src/pages/Daily/DailyDrawer.vue'),
+        children: [
+          { path: '', component: () => import('src/pages/Personal/Personal.vue') }
+        ]
+      }
     ]
   },
   // Always leave this as last one,

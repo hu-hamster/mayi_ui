@@ -2,26 +2,18 @@
     <q-page>
         <!-- 侧边栏 -->
         <q-drawer 
-        v-model="drawer"
-        show-if-above
-
-        :mini="miniState"
-        @mouseover="miniState = false"
-        @mouseout="miniState = true"
-
-        :width="200"
-        :breakpoint="500"
-        bordered
-        class="bg-grey-3"
+          v-model="draw"
+          show-if-above
+          :width="200"
+          :breakpoint="500"
         >
         <q-scroll-area class="fit">
-            <q-list  class="menu-list">
-              <q-item clickable v-ripple>
+            <q-list class="menu-list">
+              <q-item clickable v-ripple @click="OnTodayClick">
                 <q-item-section avatar>
                   <q-icon name="today"></q-icon>
                 </q-item-section>
 
-  
                 <q-item-section>
                   今天
                 </q-item-section>
@@ -47,7 +39,7 @@
                 </q-item-section>
               </q-item>
   
-              <q-item clickable v-ripple>
+              <q-item clickable v-ripple @click="OnSystemClick">
                 <q-item-section avatar>
                   <q-icon name="settings"></q-icon>
                 </q-item-section>
@@ -59,23 +51,11 @@
             </q-list>
           </q-scroll-area>
         </q-drawer>
-
-    
-        <q-page-container>
-            <router-view></router-view>
+        <q-page-container style="margin:0 auto; padding-left: 0; padding-top: 0">
+            <router-view ></router-view>
         </q-page-container>
     </q-page>
 </template>
 
-<script>
-import "@quasar/extras/material-icons-sharp"
+<script src="../../js/daily/dailydrsoawer.js" language="JavaScript" type="text/javascript"></script>
 
-export default {
-    data() {
-        return {
-            drawer: false,
-            miniState: true,
-        }
-    }
-}
-</script>
