@@ -21,6 +21,9 @@ export default defineComponent({
         },
         OnSystemClick() {
             this.$router.push("/app/personal")
+        },
+        OnReviewClick() {
+            this.$router.push('/app/review')
         }
     }
 })

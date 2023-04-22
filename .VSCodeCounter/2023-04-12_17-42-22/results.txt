@@ -1,0 +1,100 @@
+Date : 2023-04-12 17:42:22
+Directory : e:\毕设\mayi\MAYI_UI\src
+Total : 50 files,  1521 codes, 70 comments, 189 blanks, all 1780 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Vue        |         18 |        625 |          6 |         77 |        708 |
+| JavaScript |         22 |        594 |         49 |         57 |        700 |
+| CSS        |          5 |        253 |          0 |         42 |        295 |
+| HTML       |          1 |         19 |          1 |          3 |         23 |
+| XML        |          1 |         15 |          0 |          0 |         15 |
+| SCSS       |          2 |          9 |         11 |          8 |         28 |
+| TypeScript |          1 |          6 |          3 |          2 |         11 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                   | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                      |         50 |      1,521 |         70 |        189 |      1,780 |
+| . (Files)                                              |          2 |         35 |          1 |          6 |         42 |
+| assets                                                 |          1 |         15 |          0 |          0 |         15 |
+| boot                                                   |          2 |         19 |         12 |          9 |         40 |
+| components                                             |          1 |         43 |          0 |          7 |         50 |
+| css                                                    |          7 |        262 |         11 |         50 |        323 |
+| i18n                                                   |          2 |          8 |          2 |          4 |         14 |
+| i18n (Files)                                           |          1 |          4 |          0 |          2 |          6 |
+| i18n\en-US                                             |          1 |          4 |          2 |          2 |          8 |
+| js                                                     |         14 |        469 |         12 |         28 |        509 |
+| js (Files)                                             |          6 |        188 |          2 |          7 |        197 |
+| js\daily                                               |          2 |        129 |          0 |          3 |        132 |
+| js\personal                                            |          4 |         11 |          0 |          5 |         16 |
+| js\utils                                               |          2 |        141 |         10 |         13 |        164 |
+| layouts                                                |          3 |        107 |          1 |         10 |        118 |
+| pages                                                  |         13 |        459 |          5 |         57 |        521 |
+| pages (Files)                                          |          5 |        118 |          0 |         15 |        133 |
+| pages\Daily                                            |          3 |        220 |          2 |         27 |        249 |
+| pages\Personal                                         |          5 |        121 |          3 |         15 |        139 |
+| router                                                 |          2 |         78 |         13 |          9 |        100 |
+| stores                                                 |          3 |         26 |         13 |          9 |         48 |
++--------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                               | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------+------------+------------+------------+------------+------------+
+| e:\毕设\mayi\MAYI_UI\src\App.vue                         | Vue        |         16 |          0 |          3 |         19 |
+| e:\毕设\mayi\MAYI_UI\src\assets\quasar-logo-vertical.svg | XML        |         15 |          0 |          0 |         15 |
+| e:\毕设\mayi\MAYI_UI\src\boot\axios.js                   | JavaScript |          8 |         11 |          6 |         25 |
+| e:\毕设\mayi\MAYI_UI\src\boot\i18n.js                    | JavaScript |         11 |          1 |          3 |         15 |
+| e:\毕设\mayi\MAYI_UI\src\components\EssentialLink.vue    | Vue        |         43 |          0 |          7 |         50 |
+| e:\毕设\mayi\MAYI_UI\src\css\app.scss                    | SCSS       |          0 |          1 |          1 |          2 |
+| e:\毕设\mayi\MAYI_UI\src\css\dailylist.css               | CSS        |         86 |          0 |         17 |        103 |
+| e:\毕设\mayi\MAYI_UI\src\css\login.css                   | CSS        |         64 |          0 |          9 |         73 |
+| e:\毕设\mayi\MAYI_UI\src\css\loginlayout.css             | CSS        |         19 |          0 |          3 |         22 |
+| e:\毕设\mayi\MAYI_UI\src\css\personal.css                | CSS        |         25 |          0 |          5 |         30 |
+| e:\毕设\mayi\MAYI_UI\src\css\quasar.variables.scss       | SCSS       |          9 |         10 |          7 |         26 |
+| e:\毕设\mayi\MAYI_UI\src\css\register.css                | CSS        |         59 |          0 |          8 |         67 |
+| e:\毕设\mayi\MAYI_UI\src\i18n\en-US\index.js             | JavaScript |          4 |          2 |          2 |          8 |
+| e:\毕设\mayi\MAYI_UI\src\i18n\index.js                   | JavaScript |          4 |          0 |          2 |          6 |
+| e:\毕设\mayi\MAYI_UI\src\index.template.html             | HTML       |         19 |          1 |          3 |         23 |
+| e:\毕设\mayi\MAYI_UI\src\js\daily\dailydrawer.js         | JavaScript |         28 |          0 |          1 |         29 |
+| e:\毕设\mayi\MAYI_UI\src\js\daily\dailylist.js           | JavaScript |        101 |          0 |          2 |        103 |
+| e:\毕设\mayi\MAYI_UI\src\js\login.js                     | JavaScript |         37 |          2 |          1 |         40 |
+| e:\毕设\mayi\MAYI_UI\src\js\loginlayout.js               | JavaScript |         11 |          0 |          1 |         12 |
+| e:\毕设\mayi\MAYI_UI\src\js\mainlayout.js                | JavaScript |         14 |          0 |          1 |         15 |
+| e:\毕设\mayi\MAYI_UI\src\js\personal.js                  | JavaScript |         17 |          0 |          2 |         19 |
+| e:\毕设\mayi\MAYI_UI\src\js\personal\about.js            | JavaScript |          0 |          0 |          1 |          1 |
+| e:\毕设\mayi\MAYI_UI\src\js\personal\info.js             | JavaScript |         11 |          0 |          2 |         13 |
+| e:\毕设\mayi\MAYI_UI\src\js\personal\push.js             | JavaScript |          0 |          0 |          1 |          1 |
+| e:\毕设\mayi\MAYI_UI\src\js\personal\security.js         | JavaScript |          0 |          0 |          1 |          1 |
+| e:\毕设\mayi\MAYI_UI\src\js\register.js                  | JavaScript |         70 |          0 |          1 |         71 |
+| e:\毕设\mayi\MAYI_UI\src\js\userlayout.js                | JavaScript |         39 |          0 |          1 |         40 |
+| e:\毕设\mayi\MAYI_UI\src\js\utils\AxiosConfig.js         | JavaScript |        105 |          0 |          8 |        113 |
+| e:\毕设\mayi\MAYI_UI\src\js\utils\timeUtils.js           | JavaScript |         36 |         10 |          5 |         51 |
+| e:\毕设\mayi\MAYI_UI\src\layouts\LoginLayout.vue         | Vue        |         29 |          1 |          3 |         33 |
+| e:\毕设\mayi\MAYI_UI\src\layouts\MainLayout.vue          | Vue        |         45 |          0 |          4 |         49 |
+| e:\毕设\mayi\MAYI_UI\src\layouts\UserLayout.vue          | Vue        |         33 |          0 |          3 |         36 |
+| e:\毕设\mayi\MAYI_UI\src\pages\Daily\DailyDrawer.vue     | Vue        |         51 |          1 |         10 |         62 |
+| e:\毕设\mayi\MAYI_UI\src\pages\Daily\DailyList.vue       | Vue        |        132 |          1 |         10 |        143 |
+| e:\毕设\mayi\MAYI_UI\src\pages\Daily\Review.vue          | Vue        |         37 |          0 |          7 |         44 |
+| e:\毕设\mayi\MAYI_UI\src\pages\ErrorNotFound.vue         | Vue        |         27 |          0 |          5 |         32 |
+| e:\毕设\mayi\MAYI_UI\src\pages\Home.vue                  | Vue        |          0 |          0 |          1 |          1 |
+| e:\毕设\mayi\MAYI_UI\src\pages\IndexPage.vue             | Vue        |         10 |          0 |          4 |         14 |
+| e:\毕设\mayi\MAYI_UI\src\pages\Login.vue                 | Vue        |         43 |          0 |          2 |         45 |
+| e:\毕设\mayi\MAYI_UI\src\pages\Personal\About.vue        | Vue        |          6 |          0 |          2 |          8 |
+| e:\毕设\mayi\MAYI_UI\src\pages\Personal\Info.vue         | Vue        |         35 |          0 |          1 |         36 |
+| e:\毕设\mayi\MAYI_UI\src\pages\Personal\Personal.vue     | Vue        |         23 |          3 |          6 |         32 |
+| e:\毕设\mayi\MAYI_UI\src\pages\Personal\Push.vue         | Vue        |         11 |          0 |          2 |         13 |
+| e:\毕设\mayi\MAYI_UI\src\pages\Personal\Security.vue     | Vue        |         46 |          0 |          4 |         50 |
+| e:\毕设\mayi\MAYI_UI\src\pages\Register.vue              | Vue        |         38 |          0 |          3 |         41 |
+| e:\毕设\mayi\MAYI_UI\src\router\index.js                 | JavaScript |         14 |         11 |          6 |         31 |
+| e:\毕设\mayi\MAYI_UI\src\router\routes.js                | JavaScript |         64 |          2 |          3 |         69 |
+| e:\毕设\mayi\MAYI_UI\src\stores\example-store.js         | JavaScript |         14 |          0 |          2 |         16 |
+| e:\毕设\mayi\MAYI_UI\src\stores\index.js                 | JavaScript |          6 |         10 |          5 |         21 |
+| e:\毕设\mayi\MAYI_UI\src\stores\store-flag.d.ts          | TypeScript |          6 |          3 |          2 |         11 |
+| Total                                                  |            |      1,521 |         70 |        189 |      1,780 |
++--------------------------------------------------------+------------+------------+------------+------------+------------+

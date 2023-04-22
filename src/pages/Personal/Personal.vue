@@ -2,23 +2,30 @@
     <q-page>
         <div class="q-gutter-y-md" style="max-width: 600px">
             <q-tabs
-            class="text-grey"
+            v-model="selectedTab"
+            class="text-grey" 
             active-color="dark"
-            align="justify"
+            align="justify"    
             >   
-                <q-tab name="info" label="信息设置"></q-tab>
-                <q-tab name="security" label="安全设置"></q-tab>
-                <q-tab name="push" label="推送设置"></q-tab>
-                <q-tab name="about" label="关于"></q-tab>
+                <q-tab v-for="tab in tabs" :name=tab.name :label=tab.label></q-tab>
             </q-tabs>
+
+            
         </div>
-        <q-page-container>
+        <q-tab-panels v-model="selectedTab">
+            <q-tab-panel v-for="(tab, index) in tabs" :key="index" :name="tab.name">
+              <router-view :name="tab.name" />
+            </q-tab-panel>
+        </q-tab-panels>
+       
+        <!-- <q-page-container>
             <router-view ></router-view>
-        </q-page-container>
+        </q-page-container> -->
     </q-page>
 </template>
 
 <script src="../../js/personal.js" language="JavaScript" type="text/javascript"></script>
-<style scoped>
 
+<style scoped>
+@import "../../css/personal.css";
 </style>

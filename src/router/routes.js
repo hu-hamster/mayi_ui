@@ -34,7 +34,25 @@ const routes = [
       {
         path: 'personal', component: () => import('src/pages/Daily/DailyDrawer.vue'),
         children: [
-          { path: '', component: () => import('src/pages/Personal/Personal.vue') }
+          { 
+            path: '', component: () => import('src/pages/Personal/Personal.vue'),
+            children: [
+              {
+                path: '', components: {
+                  info: () => import('src/pages/Personal/Info.vue'),
+                  security: () => import('src/pages/Personal/Security.vue'),
+                  push: () => import('src/pages/Personal/Push.vue'),
+                  about: () => import('src/pages/Personal/About.vue'),
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        path: 'review', component: () => import('src/pages/Daily/DailyDrawer.vue'),
+        children: [
+          { path: '', component: () => import('src/pages/Daily/Review.vue') }
         ]
       }
     ]

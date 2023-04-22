@@ -19,7 +19,7 @@
                 </q-item-section>
               </q-item>
   
-              <q-item clickable v-ripple>
+              <q-item clickable v-ripple @click="OnReviewClick">
                 <q-item-section avatar>
                   <q-icon name="preview"></q-icon>
                 </q-item-section>
@@ -57,5 +57,5 @@
     </q-page>
 </template>
 
-<script src="../../js/daily/dailydrsoawer.js" language="JavaScript" type="text/javascript"></script>
+<script src="../../js/daily/dailydrawer.js" language="JavaScript" type="text/javascript"></script>
 
