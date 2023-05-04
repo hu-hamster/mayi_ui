@@ -4,10 +4,4 @@
   </q-page>
 </template>
 
-<script>
-import { defineComponent } from 'vue'
-
-export default defineComponent({
-  name: 'IndexPage'
-})
-</script>
+<script src="../js/indexpage.js" language="JavaScript" type="text/javascript"></script>
